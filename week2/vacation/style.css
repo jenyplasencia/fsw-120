@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.Vacation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Vacation{
+    flex-basis: 250px;
+    margin: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.Vacation> h3 {
+    text-align: center;
+}
+
+.Vacation > p {
+    font-size: 12px;
+}
