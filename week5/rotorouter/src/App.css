@@ -1,0 +1,57 @@
+body {
+  background-color: grey;
+  text-align: center;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url("pluming.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#links {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+
+h1 {
+  color: Black;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+h3 {
+  color: Black;
+  font-size: 18px;
+}
+
+p {
+  margin: 75px;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerdetail {
+  grid-column: 2/3;
+  font-size: 10px;
+}
